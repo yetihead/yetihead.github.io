@@ -1,0 +1,1 @@
+import{r as n}from"./index-CJ_LmFaV.js";import{u,a as c}from"./PopoverPrivate-CnKgsFAm.js";function l(e,o,{closeOnPopstate:a=!1,closeByCloseWatcher:r=!0}){const t=u(o);c(()=>e&&t(),a),n.useEffect(()=>{if(e&&"CloseWatcher"in window&&r){const s=new CloseWatcher;return s.onclose=()=>t(),()=>s.destroy()}},[e,t,r])}export{l as u};

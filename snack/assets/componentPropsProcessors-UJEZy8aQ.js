@@ -1,0 +1,1 @@
+const u=/^data-test-/,a=/^(data|aria)-/;function s(t,c){return Object.keys(t).filter(e=>!e.match(c)).reduce((e,r)=>({...e,[r]:t[r]}),{})}function n(t,c){return Object.keys(t).reduce((e,r)=>(r.match(c)&&(e[r]=t[r]),e),{})}function o(t){return s(t,a)}function i(t){return n(t,u)}function f(t){return n(t,a)}export{i as a,o as b,f as e};

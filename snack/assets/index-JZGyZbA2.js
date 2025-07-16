@@ -1,0 +1,1 @@
+import{r as n}from"./index-CJ_LmFaV.js";function l(t,e,r){const o=n.useRef(t!==void 0),[c,u]=n.useState(e),s=t!==void 0,a=o.current;return o.current=s,!s&&a&&c!==e&&u(e),[s?t:c,n.useCallback((...f)=>{const[i,...P]=f;let p=r==null?void 0:r(i,...P);return u(i),p},[r])]}export{l as u};
